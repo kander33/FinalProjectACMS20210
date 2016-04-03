@@ -71,7 +71,7 @@ void DrawHangman(int wrong);
   cout<<""+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
- 	cout<<"| /|   "<<endl;
+ 	cout<<"|  /|   "<<endl;
  	cout<<"|       "<<endl;
  	cout<<"========";<<endl;
  	}
