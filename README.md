@@ -6,8 +6,8 @@ using namespace std;
 //Declaring bool function Contains
 bool Contains(string<char> answer,char letter);
 
-int main{
-
+int main
+{
 //Defining variables
 string answer;
 string guess;
@@ -38,8 +38,9 @@ if(answer[ii]=" ")
 //end of flowchart 1
 //start of loop 1
 
-while(wrong<maxwrongguesses){
-//Insert DrawHangman function here to output figure to screen
+while(wrong<maxwrongguesses)
+{
+//Output Hangman figure to the screen
 void DrawHangman(int wrong);
  {
  if (wrong==0)
@@ -126,18 +127,7 @@ if(guess==answer){
 
 }
   
-cout << "You've reached the maximum number of guesses" << endl;
-
-cout<<""+====== "<<endl;
-cout<<"|   |   "<<endl;
-cout<<"|   O   "<<endl;
-cout<<"|  /|\    "<<endl;
-cout<<"|  /    "<<endl;
-cout<<"========";<<endl;
-
-cout << "The correct word is " << answer << endl;
-
-//End of game  
+  
 
 
 
@@ -147,7 +137,8 @@ return 0;
 }
 
 //defining bool function Contains
-bool Contains(string<char> answer,char letter){
+bool Contains(string<char> answer,char letter)
+{
 for(int ii=0;ii<answer.size();ii++)
   {
   if(answer[ii]=letter)
