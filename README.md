@@ -3,8 +3,7 @@
 using namespace std;
 
 
-int main
-{
+int main{
 
 //Defining variables
 string answer;
@@ -24,11 +23,8 @@ guess.size()=answer.size();
 for(int ii;ii<guess.size();ii++)
 {
 if(answer[ii]=" ")
-  {
-  guess[ii]=" ";
-  } 
-  else 
-  {
+  {guess[ii]=" ";
+  } else {
   guess[ii]=*;
   }
 }
@@ -36,6 +32,11 @@ if(answer[ii]=" ")
 //end of flowchart 1
 //start of loop 1
 
+if(wrong<maxwrongguesses){
+//Insert DrawHangman function here to output figure to screen
+cout << "The number of remaining
+
+  }
 
 
 
