@@ -54,7 +54,7 @@ void DrawHangman(int wrong);
   }
  elseif (wrong==1)
   {
-  cout<<""+====== "<<endl;
+  cout<<"+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
  	cout<<"|       "<<endl;
@@ -63,7 +63,7 @@ void DrawHangman(int wrong);
   	}
  elseif (wrong==2)
   {
-  cout<<""+====== "<<endl;
+  cout<<"+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
  	cout<<"|   |   "<<endl;
@@ -72,7 +72,7 @@ void DrawHangman(int wrong);
  	}
  elseif (wrong==3)
   {
-  cout<<""+====== "<<endl;
+  cout<<"+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
  	cout<<"|  /|   "<<endl;
@@ -81,7 +81,7 @@ void DrawHangman(int wrong);
  	}
  elseif (wrong==4)
  {
- cout<<""+====== "<<endl;
+ cout<<"+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
  	cout<<"|  /|\    "<<endl;
@@ -90,7 +90,7 @@ void DrawHangman(int wrong);
  	}
  elseif (wrong==5)
  {
-  cout<<""+====== "<<endl;
+  cout<<"+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|   O   "<<endl;
  	cout<<"|  /|\    "<<endl;
