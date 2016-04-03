@@ -107,7 +107,8 @@ cin >> letter;
 if(Contains(answer,letter)=1)
   {
   cout << "Letter is in word" << endl;
-  for(int i=0;i<answer.size();i++){
+  for(int i=0;i<answer.size();i++)
+  {
     if(answer[i]==letter)
       guess[i]=letter;
     }
