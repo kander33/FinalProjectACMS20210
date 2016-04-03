@@ -45,7 +45,7 @@ void DrawHangman(int wrong);
  {
  if (wrong==0)
   {
-  cout<<"+====== "<<endl;
+  cout<<""+====== "<<endl;
  	cout<<"|   |   "<<endl;
  	cout<<"|       "<<endl;
  	cout<<"|       "<<endl;
@@ -126,6 +126,19 @@ if(guess==answer){
   }
 
 }
+
+cout << "You've reached the maximum number of guesses" << endl;
+
+cout<<""+====== "<<endl;
+cout<<"|   |   "<<endl;
+cout<<"|   O   "<<endl;
+cout<<"|  /|\    "<<endl;
+cout<<"|  /    "<<endl;
+cout<<"========";<<endl;
+
+cout << "The correct word is " << answer << endl;
+
+//End of game
   
 
 return 0;
