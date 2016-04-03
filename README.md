@@ -129,7 +129,7 @@ if(guess==answer){
 
 cout << "You've reached the maximum number of guesses" << endl;
 
-cout<<""+====== "<<endl;
+cout<<"+====== "<<endl;
 cout<<"|   |   "<<endl;
 cout<<"|   O   "<<endl;
 cout<<"|  /|\    "<<endl;
