@@ -23,10 +23,16 @@ guess.size()=answer.size();
 for(int ii;ii<guess.size();ii++)
 {
 if(answer[ii]=" ")
-  {
-  
-
+  {guess[ii]=" ";
+  } else {
+  guess[ii]=*;
+  }
 }
+
+//end of flowchart 1
+//start of loop 1
+
+
 
 
 
