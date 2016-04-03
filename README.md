@@ -126,7 +126,18 @@ if(guess==answer){
 
 }
   
-  
+cout << "You've reached the maximum number of guesses" << endl;
+
+cout<<""+====== "<<endl;
+cout<<"|   |   "<<endl;
+cout<<"|   O   "<<endl;
+cout<<"|  /|\    "<<endl;
+cout<<"|  /    "<<endl;
+cout<<"========";<<endl;
+
+cout << "The correct word is " << answer << endl;
+
+//End of game  
 
 
 
