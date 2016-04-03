@@ -4,7 +4,7 @@
 using namespace std;
 
 //Declaring bool function Contains
-bool Contains(string<char> answer,char letter);
+bool Contains(string answer,char letter);
 
 int main
 {
@@ -132,7 +132,7 @@ return 0;
 }
 
 //defining bool function Contains
-bool Contains(string<char> answer,char letter)
+bool Contains(string answer,char letter)
 {
 for(int ii=0;ii<answer.size();ii++)
   {
