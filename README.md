@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+//Declaring bool function Contains
+bool Contains(string<char> answer,char letter);
 
 int main{
 
@@ -32,20 +34,37 @@ if(answer[ii]=" ")
 //end of flowchart 1
 //start of loop 1
 
-if(wrong<maxwrongguesses){
+while(wrong<maxwrongguesses){
 //Insert DrawHangman function here to output figure to screen
 cout << "The number of remaining guesses is " << maxwrongguesses-wrong << end;
 //outputting the blank word of *s
-cout << guess;
+cout << guess << endl;
+//Ask Player 2 to input the letter to guess
+cout << "Player 2: Guess a letter" << endl;
+cin >> letter;
+//Loop to see if letter is in the answer word
+
 
 
   }
+  
+  
 
 
 
 
 
 return 0;
+}
+
+//defining bool function Contains
+bool Contains(string<char> answer,char letter){
+for(int ii=0;ii<answer.size();ii++)
+  {
+  if(answer[ii]=letter)
+    return true;
+  }
+  return false;
 }
 
 
