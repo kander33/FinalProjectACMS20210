@@ -26,8 +26,11 @@ guess.size()=answer.size();
 for(int ii;ii<guess.size();ii++)
 {
 if(answer[ii]=" ")
-  {guess[ii]=" ";
-  } else {
+  {
+  guess[ii]=" ";
+  } 
+  else
+  {
   guess[ii]=*;
   }
 }
@@ -101,13 +104,16 @@ cout << guess << endl;
 cout << "Player 2: Guess a letter" << endl;
 cin >> letter;
 //Loop to see if letter is in the answer word
-if(Contains(answer,letter)=1){
+if(Contains(answer,letter)=1)
+  {
   cout << "Letter is in word" << endl;
   for(int i=0;i<answer.size();i++){
     if(answer[i]==letter)
       guess[i]=letter;
     }
-  } else {
+  } 
+  else 
+  {
     wrong++;
     cout << "Sorry, letter guessed is not in the word" << endl;
     cout << "Number of guesses left is " << maxwrongguesses-wrong << endl;
