@@ -127,11 +127,6 @@ if(guess==answer){
 
 }
   
-  
-
-
-
-
 
 return 0;
 }
