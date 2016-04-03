@@ -37,6 +37,63 @@ if(answer[ii]=" ")
 
 while(wrong<maxwrongguesses){
 //Insert DrawHangman function here to output figure to screen
+void DrawHangman(int wrong);
+ {
+ if (wrong==0)
+  {
+  cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"========";<<endl;
+  }
+ elseif (wrong==1)
+  {
+  cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|   O   "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"========";<<endl;
+  	}
+ elseif (wrong==2)
+  {
+  cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|   O   "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"========";<<endl;
+ 	}
+ elseif (wrong==3)
+  {
+  cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|   O   "<<endl;
+ 	cout<<"| /|   "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"========";<<endl;
+ 	}
+ elseif (wrong==4)
+ {
+ cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|   O   "<<endl;
+ 	cout<<"|  /|\    "<<endl;
+ 	cout<<"|       "<<endl;
+ 	cout<<"========";<<endl;
+ 	}
+ elseif (wrong==5)
+ {
+  cout<<""+====== "<<endl;
+ 	cout<<"|   |   "<<endl;
+ 	cout<<"|   O   "<<endl;
+ 	cout<<"|  /|\    "<<endl;
+ 	cout<<"|  /    "<<endl;
+ 	cout<<"========";<<endl;
+ 	}
+ }
 cout << "The number of remaining guesses is " << maxwrongguesses-wrong << end;
 //outputting the blank word of *s
 cout << guess << endl;
