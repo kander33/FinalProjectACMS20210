@@ -3,7 +3,8 @@
 using namespace std;
 
 
-int main{
+int main
+{
 
 //Defining variables
 string answer;
@@ -23,8 +24,11 @@ guess.size()=answer.size();
 for(int ii;ii<guess.size();ii++)
 {
 if(answer[ii]=" ")
-  {guess[ii]=" ";
-  } else {
+  {
+  guess[ii]=" ";
+  } 
+  else 
+  {
   guess[ii]=*;
   }
 }
