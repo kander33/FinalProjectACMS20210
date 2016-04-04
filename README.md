@@ -6,7 +6,7 @@ using namespace std;
 //Declaring bool function Contains
 bool Contains(string answer,char letter);
 
-int main
+int main()
 {
 //Defining variables
 string answer;
